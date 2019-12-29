@@ -1,0 +1,5 @@
+TG_TOKEN = "846210106:AAEiv0seaDdKUvf3S4zWaP_lZ1fF1zwOr_U"
+TG_API_URL = "https://telegg.ru/orig/bot"
+
+MONGODB_LINK = "mongodb+srv://VerstukTelegramBot:04102003@verstuktelegrambot0-oaowz.mongodb.net/verstuk_tb?retryWrites=true&w=majority"
+MONGO_DB = "verstuk_tb"
