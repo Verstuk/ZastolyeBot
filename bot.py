@@ -1,7 +1,7 @@
 # Импортируем необходимые компоненты
 # import kwargs as kwargs
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
-from setting import TG_TOKEN, TG_API_URL
+# from setting import TG_TOKEN, TG_API_URL
 from handlers import *
 import logging
 
@@ -13,7 +13,7 @@ logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s',
 #Создаем фнукцию main, с помощью которой соеденяемся с сервисом telegram
 
 def main():
-    my_bot = Updater(TG_TOKEN, TG_API_URL, use_context=True)
+    my_bot = Updater("846210106:AAEiv0seaDdKUvf3S4zWaP_lZ1fF1zwOr_U", "https://telegg.ru/orig/bot", use_context=True)
     logging.info('Start bot')
 
     my_bot.dispatcher.add_handler(CommandHandler('start', sms))
